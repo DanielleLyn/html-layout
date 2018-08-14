@@ -7,7 +7,7 @@ body {
 .container-one {
   width: 100%;
   border: 5px solid black;
-  padding: 10px;
+  padding: 15px;
   box-sizing: border-box ;
 }
 
@@ -16,13 +16,14 @@ body {
   width: 50px;
   background-color: blueviolet;
   display: inline-block;
+  padding: 20px;
 }
 .square-two {
   height: 200px;
   width: 400px;
   display: inline-block;
   background-color: forestgreen;
-  margin: 0 50px;
+  margin: 0 60px;
 }
 .circle-one {
   height: 200px;
@@ -67,3 +68,32 @@ body {
   color: navy;
   letter-spacing: 10px;
 }
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> Second - Solution </title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+
+  <body>
+    <div class="container-one">
+      <div class="square-one">
+        
+      </div>
+      <div class="square-two">
+        
+      </div>
+      <div class="circle-one">
+        
+      </div>
+    </div>
+    <div class="container-two">
+        <div class="box-shadow">
+          
+        </div>
+    </div>
+    <div class="container-three">
+      <h1>HELLO FRIENDS</h1>
+    </div>
+  </body>
+</html>
